@@ -1,0 +1,556 @@
+<div id="app">
+    <div id="header-wrapper" class="header-wrapper">
+        <div class="notice-bar desktop-notice-bar" style="color: #ffffff; background-color: #803160;">
+            <div class="container">
+                <div class="fr-view">
+                    <p><strong>Offre sp&eacute;ciale :</strong> livraison gratuite, paiement &agrave; la livraison,
+                        plus rapide et vous pouvez commander d&egrave;s maintenant !</p>
+                </div>
+            </div>
+        </div>
+        <div class="notice-bar mobile-notice-bar" style="color: #ffffff; background-color: #803160;">
+            <div class="container">
+                <div class="fr-view">
+                    <p><strong>Offre sp&eacute;ciale :</strong> livraison gratuite et paiement &agrave;
+                        r&eacute;ception</p>
+                    <p><strong>D&eacute;p&ecirc;chez-vous et commandez d&egrave;s maintenant !</strong></p>
+                </div>
+            </div>
+        </div>
+        <div class="header-container">
+            <header class="app-header" :class="{'search-active': showSearch, 'navigation-active': showNavigation}"
+                id="app-header">
+                <div class="main-bar desktop-bar"
+                    style="background-color: #ffffff;border-bottom: 1px solid #f0f0f0;">
+                    <div class="container">
+                        <div class="header-center">
+                            <div class="header-element">
+                                <ul class="list-unstyled header-list">
+                                    <li>
+                                        <a href="/" style="color:#000000">
+                                            Accueil
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/pages/contact-us" style="color:#000000">
+                                            Contactez nous
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a style="color:#000000">Collections</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="header-left">
+                            <div class="header-element">
+                                <a class="header-brand" href=""></a>
+                            </div>
+                        </div>
+                        <div class="header-right">
+                            <div class="header-element">
+                                <a class="header-switcher">
+                                    <i class="yc yc-search" style="color:#000000"></i>
+                                </a>
+                            </div>
+                            <div class="header-element">
+                            </div>
+                            <div class="header-element">
+                                <cart-dropdown color="#000000"></cart-dropdown>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {{-- Mobile Nav --}}
+                <div class="main-bar mobile-bar"
+                    style="background-color: #ffffff;border-bottom: 1px solid #f0f0f0;">
+                    <div class="container">
+                        <div class="header-left">
+                            <div class="header-element">
+                                <a class="header-switcher" href="javascript:void(0)" role="button"
+                                    @click="toggleNavigation()">
+                                    <i class="yc yc-menu" style="color:#000000"></i>
+                                </a>
+                            </div>
+                            <div class="header-element">
+                                <a class="header-brand" href="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="header-right">
+                            <div class="header-element">
+                                <a class="header-switcher">
+                                    <i class="yc yc-search" style="color:#000000"></i>
+                                </a>
+                            </div>
+                            <div class="header-element">
+                            </div>
+                            <div class="header-element">
+                                <cart-dropdown color="#000000"></cart-dropdown>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+    </div>
+    <main class="page-wrapper">
+        <div id="section-3UIEW0oAUnwEKM6M" class="slider-container show-first-image horizontal medium">
+            <div class="slider">
+                <div class="slide ">
+                    <img class="mobile-image "
+                        src="https://cdn.youcan.shop/stores/c21f969b5f03d33d43e04f8f136e7682/others/exJIj1WB1xXKzBHfeLblKpBDpOJccRStFXLEi0d3.png"
+                        alt="slider-image" />
+                    <img class="desktop-image "
+                        src="https://cdn.youcan.shop/stores/c21f969b5f03d33d43e04f8f136e7682/others/exJIj1WB1xXKzBHfeLblKpBDpOJccRStFXLEi0d3.png"
+                        alt="slider-image" />
+                    <span class="slider-caption">
+                    </span>
+
+                </div>
+                <div class="slide ">
+                    <img class="mobile-image "
+                        src="https://cdn.youcan.shop/stores/c21f969b5f03d33d43e04f8f136e7682/others/fPFsET2AgQI7TVZIlgRlv5MizZyNlsn2PkNVK2WB.png"
+                        alt="slider-image" />
+                    <img class="desktop-image "
+                        src="https://cdn.youcan.shop/stores/c21f969b5f03d33d43e04f8f136e7682/others/fPFsET2AgQI7TVZIlgRlv5MizZyNlsn2PkNVK2WB.png"
+                        alt="slider-image" />
+                    <span class="slider-caption">
+                    </span>
+
+                </div>
+            </div>
+        </div>
+
+
+        <section class="section products-list-section section-bCiXTyB9F1N39CD1">
+            <div class="container">
+                <div class="app-heading">
+                    <h3 class="heading-primary">Remises incroyables</h3>
+                    <p class="heading-description">Des produits de qualité</p>
+                </div>
+                <div class="products-grid">
+                    <div class="product-item">
+                        <a class="product-thumbnail lazy" href="https://capmind3.youcan.store/products/product-5">
+                            <img data-src="https://cdn.youcan.shop/stores/c21f969b5f03d33d43e04f8f136e7682/products/WzwMvHplS7hDtJjDxRkZ0kseC9BnRAaQYFUWy5Og_md.png"
+                                alt="" class="">
+                        </a>
+                        <div class="product-details">
+                            <div class="product-info">
+                                <h3 class="product-title">
+                                    <a href="https://capmind3.youcan.store/products/product-5">Cinquième produit</a>
+                                </h3>
+                                <div class="product-price">
+                                    <span class="currency-value after">
+                                        <span class="value">300</span><span class="currency">&nbsp;د.م</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="product-actions">
+                                <a class="button small-button secondary-button"
+                                    href="https://capmind3.youcan.store/products/product-5">
+                                    Buy it now
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <a class="product-thumbnail lazy" href="https://capmind3.youcan.store/products/product-3">
+                            <img data-src="https://cdn.youcan.shop/stores/c21f969b5f03d33d43e04f8f136e7682/products/sNxd8M0TbbHJ3u0tuQqeZmuqtIiIHNd5nMW2Ez60_md.png"
+                                alt="" class="">
+                        </a>
+                        <div class="product-details">
+                            <div class="product-info">
+                                <h3 class="product-title">
+                                    <a href="https://capmind3.youcan.store/products/product-3">Troisième produit</a>
+                                </h3>
+                                <div class="product-price">
+                                    <span class="currency-value before">
+                                        <span class="value">60</span><span class="currency">&nbsp;د.م</span>
+                                    </span>
+                                    <span class="currency-value after">
+                                        <span class="value">40</span><span class="currency">&nbsp;د.م</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="product-actions">
+                                <a class="button small-button secondary-button"
+                                    href="https://capmind3.youcan.store/products/product-3">
+                                    Buy it now
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <a class="product-thumbnail lazy" href="https://capmind3.youcan.store/products/product-2">
+                            <img data-src="https://cdn.youcan.shop/stores/c21f969b5f03d33d43e04f8f136e7682/products/QEnB4R9jIbsLEBrTd83nHIxLhnzsqCtmPEtLt5zl_md.png"
+                                alt="" class="">
+                        </a>
+                        <div class="product-details">
+                            <div class="product-info">
+                                <h3 class="product-title">
+                                    <a href="https://capmind3.youcan.store/products/product-2">Deuxième produit</a>
+                                </h3>
+                                <div class="product-price">
+                                    <span class="currency-value before">
+                                        <span class="value">250</span><span class="currency">&nbsp;د.م</span>
+                                    </span>
+                                    <span class="currency-value after">
+                                        <span class="value">200</span><span class="currency">&nbsp;د.م</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="product-actions">
+                                <a class="button small-button secondary-button"
+                                    href="https://capmind3.youcan.store/products/product-2">
+                                    Buy it now
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <a class="product-thumbnail lazy" href="https://capmind3.youcan.store/products/product-4">
+                            <img data-src="https://cdn.youcan.shop/stores/c21f969b5f03d33d43e04f8f136e7682/products/70sdy2kUDk8QZ9lUCVJEaQfIT3yrG9F6vdP9xiqe_md.png"
+                                alt="" class="">
+                        </a>
+                        <div class="product-details">
+                            <div class="product-info">
+                                <h3 class="product-title">
+                                    <a href="https://capmind3.youcan.store/products/product-4">Quatrième produit</a>
+                                </h3>
+                                <div class="product-price">
+                                    <span class="currency-value before">
+                                        <span class="value">250</span><span class="currency">&nbsp;د.م</span>
+                                    </span>
+                                    <span class="currency-value after">
+                                        <span class="value">200</span><span class="currency">&nbsp;د.م</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="product-actions">
+                                <a class="button small-button secondary-button"
+                                    href="https://capmind3.youcan.store/products/product-4">
+                                    Buy it now
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="load-more">
+                    <a class="button default-button" href="https://capmind3.youcan.store/collections/category-2">
+                        Load more
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+        {{-- <section class="section products-list-section section-fHfUG6lBavA6YPhH">
+            <div class="container">
+                <div class="app-heading">
+                    <h3 class="heading-primary">test</h3>
+                    <p class="heading-description">tes</p>
+                </div>
+                <div class="products-slider">
+                    <div class="product-item">
+                        <a class="product-thumbnail lazy" href="https://capmind3.youcan.store/products/product-5">
+                            <img data-src="https://cdn.youcan.shop/stores/c21f969b5f03d33d43e04f8f136e7682/products/WzwMvHplS7hDtJjDxRkZ0kseC9BnRAaQYFUWy5Og_md.png"
+                                alt="" class="">
+                        </a>
+                        <div class="product-details">
+                            <div class="product-info">
+                                <h3 class="product-title">
+                                    <a href="https://capmind3.youcan.store/products/product-5">Cinquième produit</a>
+                                </h3>
+                                <div class="product-price">
+                                    <span class="currency-value after">
+                                        <span class="value">300</span><span class="currency">&nbsp;د.م</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="product-actions">
+                                <a class="button small-button secondary-button"
+                                    href="https://capmind3.youcan.store/products/product-5">
+                                    Buy it now
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <a class="product-thumbnail lazy" href="https://capmind3.youcan.store/products/product-3">
+                            <img data-src="https://cdn.youcan.shop/stores/c21f969b5f03d33d43e04f8f136e7682/products/sNxd8M0TbbHJ3u0tuQqeZmuqtIiIHNd5nMW2Ez60_md.png"
+                                alt="" class="">
+                        </a>
+                        <div class="product-details">
+                            <div class="product-info">
+                                <h3 class="product-title">
+                                    <a href="https://capmind3.youcan.store/products/product-3">Troisième produit</a>
+                                </h3>
+                                <div class="product-price">
+                                    <span class="currency-value before">
+                                        <span class="value">60</span><span class="currency">&nbsp;د.م</span>
+                                    </span>
+                                    <span class="currency-value after">
+                                        <span class="value">40</span><span class="currency">&nbsp;د.م</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="product-actions">
+                                <a class="button small-button secondary-button"
+                                    href="https://capmind3.youcan.store/products/product-3">
+                                    Buy it now
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <a class="product-thumbnail lazy" href="https://capmind3.youcan.store/products/product-2">
+                            <img data-src="https://cdn.youcan.shop/stores/c21f969b5f03d33d43e04f8f136e7682/products/QEnB4R9jIbsLEBrTd83nHIxLhnzsqCtmPEtLt5zl_md.png"
+                                alt="" class="">
+                        </a>
+                        <div class="product-details">
+                            <div class="product-info">
+                                <h3 class="product-title">
+                                    <a href="https://capmind3.youcan.store/products/product-2">Deuxième produit</a>
+                                </h3>
+                                <div class="product-price">
+                                    <span class="currency-value before">
+                                        <span class="value">250</span><span class="currency">&nbsp;د.م</span>
+                                    </span>
+                                    <span class="currency-value after">
+                                        <span class="value">200</span><span class="currency">&nbsp;د.م</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="product-actions">
+                                <a class="button small-button secondary-button"
+                                    href="https://capmind3.youcan.store/products/product-2">
+                                    Buy it now
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <a class="product-thumbnail lazy" href="https://capmind3.youcan.store/products/product-4">
+                            <img data-src="https://cdn.youcan.shop/stores/c21f969b5f03d33d43e04f8f136e7682/products/70sdy2kUDk8QZ9lUCVJEaQfIT3yrG9F6vdP9xiqe_md.png"
+                                alt="" class="">
+                        </a>
+                        <div class="product-details">
+                            <div class="product-info">
+                                <h3 class="product-title">
+                                    <a href="https://capmind3.youcan.store/products/product-4">Quatrième produit</a>
+                                </h3>
+                                <div class="product-price">
+                                    <span class="currency-value before">
+                                        <span class="value">250</span><span class="currency">&nbsp;د.م</span>
+                                    </span>
+                                    <span class="currency-value after">
+                                        <span class="value">200</span><span class="currency">&nbsp;د.م</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="product-actions">
+                                <a class="button small-button secondary-button"
+                                    href="https://capmind3.youcan.store/products/product-4">
+                                    Buy it now
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <a class="product-thumbnail lazy" href="https://capmind3.youcan.store/products/product-1">
+                            <img data-src="https://cdn.youcan.shop/stores/c21f969b5f03d33d43e04f8f136e7682/products/Q7ZgTSQbs3gJl5ARAUkBDEs9OpEe2Mq47AR6tiJf_md.png"
+                                alt="" class="">
+                        </a>
+                        <div class="product-details">
+                            <div class="product-info">
+                                <h3 class="product-title">
+                                    <a href="https://capmind3.youcan.store/products/product-1">Premier produit</a>
+                                </h3>
+                                <div class="product-price">
+                                    <span class="currency-value before">
+                                        <span class="value">15</span><span class="currency">&nbsp;د.م</span>
+                                    </span>
+                                    <span class="currency-value after">
+                                        <span class="value">10</span><span class="currency">&nbsp;د.م</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="product-actions">
+                                <a class="button small-button secondary-button"
+                                    href="https://capmind3.youcan.store/products/product-1">
+                                    Buy it now
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> --}}
+
+
+    </main>
+    <!-- App footer -->
+    <footer class="footer " style="background-color: #fefefe;color: #000000;border-top: 1px solid #f0f0f0;">
+        <div class="container">
+            <div class="footer-brand">
+                <a class="" href="https://capmind3.youcan.store">
+                    <img src="https://cdn.youcan.shop/stores/c21f969b5f03d33d43e04f8f136e7682/others/iiZGeY9UQikr6rFoi0rE1nxzUlUDXU5BoyXRzYTU.png "
+                        alt="CAPMIND3" />
+                </a>
+            </div>
+            <div class="footer-body">
+                <div class="is-grid grid-3">
+                    <div class="footer-item">
+                        <h3>Termes et politiques</h3>
+                        <ul class="list-unstyled footer-list">
+                            <li>
+                                <a href="/pages/terms-and-conditions" style="color: #000000;">
+                                    Conditions d&#039;utilisation
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/pages/return-policy" style="color: #000000;">
+                                    Retours &amp; échanges
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/pages/confidentiality" style="color: #000000;">
+                                    Politique de Confidentialité
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-item">
+                        <h3>A propos du magasin</h3>
+                        <ul class="list-unstyled footer-list">
+                            <li>
+                                <a href="/pages/about-us" style="color: #000000;">
+                                    À propos
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/pages/how-to-pay" style="color: #000000;">
+                                    Méthodes de payement
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/pages/shipping-delivery" style="color: #000000;">
+                                    Expedition et manutention
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-item">
+                        <h3>Contactez-nous</h3>
+                        <ul class="list-unstyled footer-list">
+                            <li>
+                                <a href="/pages/contact-us" style="color: #000000;">
+                                    Contactez nous
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/pages/faq" style="color: #000000;">
+                                    Aide &amp; FAQ
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Hookables -->
+</div>
+<div
+    style="font-size: 15px !important;font-weight: 200;color: #6a6a6acc;background-color: #FFFFFF !important;padding: 10px !important;text-align: center !important;display: block !important;">
+    <span>
+        Made with
+        <span style="font-size: 20px;color: black;font-weight: 900;">♥</span> by <a href="https://youcan.shop/"
+            target="_blank" style="color: #6a6a6acc;">YouCan</a>
+    </span>
+</div>
+
+
+<div class="product-item">
+    <a class="product-thumbnail lazy" href="">
+        <img data-src=""
+            alt="" class="">
+    </a>
+    <div class="product-details">
+        <div class="product-info">
+            <h3 class="product-title">
+                <a href="">Third product</a>
+            </h3>
+            {{-- <div class="product-price">
+                <span class="currency-value before">
+                    <span class="value">60</span><span class="currency">&nbsp;د.م</span>
+                </span>
+                <span class="currency-value after">
+                    <span class="value">40</span><span class="currency">&nbsp;د.م</span>
+                </span>
+            </div> --}}
+        </div>
+        <div class="product-actions">
+            <a class="button small-button secondary-button"
+                href="">
+                Buy it now
+            </a>
+        </div>
+    </div>
+</div>
+<div class="product-item">
+    <a class="product-thumbnail lazy" href="">
+        <img data-src=""
+            alt="" class="">
+    </a>
+    <div class="product-details">
+        <div class="product-info">
+            <h3 class="product-title">
+                <a href="">Second product</a>
+            </h3>
+            {{-- <div class="product-price">
+                <span class="currency-value before">
+                    <span class="value">250</span><span class="currency">&nbsp;د.م</span>
+                </span>
+                <span class="currency-value after">
+                    <span class="value">200</span><span class="currency">&nbsp;د.م</span>
+                </span>
+            </div> --}}
+        </div>
+        <div class="product-actions">
+            <a class="button small-button secondary-button"
+                href="">
+                Buy it now
+            </a>
+        </div>
+    </div>
+</div>
+<div class="product-item">
+    <a class="product-thumbnail lazy" href="">
+        <img data-src=""
+            alt="" class="">
+    </a>
+    <div class="product-details">
+        <div class="product-info">
+            <h3 class="product-title">
+                <a href="">Fourth product</a>
+            </h3>
+            {{-- <div class="product-price">
+                <span class="currency-value before">
+                    <span class="value">250</span><span class="currency">&nbsp;د.م</span>
+                </span>
+                <span class="currency-value after">
+                    <span class="value">200</span><span class="currency">&nbsp;د.م</span>
+                </span>
+            </div> --}}
+        </div>
+        <div class="product-actions">
+            <a class="button small-button secondary-button"
+                href="">
+                Buy it now
+            </a>
+        </div>
+    </div>
+</div>

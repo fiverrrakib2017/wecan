@@ -1,0 +1,1 @@
+window.onload=function(e){var t=document.querySelectorAll(".slide"),s=0;t[0].style.display="block",setTimeout((function(){t[0].style.display="none",t[1].classList.add("active")}),7e3),setInterval((function(){t.forEach((function(e){e.classList.remove("active")})),t[s].classList.add("active"),s=(s+1)%t.length}),14e3)};
